@@ -1,0 +1,14 @@
+name: TizemAntiLag
+version: 1.0.0
+main: com.tizem.antilag.AntiLagPlugin
+api-version: '1.21'
+description: Clears ground items on a timer with warnings.
+commands:
+  antilag:
+    description: AntiLag controls
+    usage: /antilag <clear|reload>
+    permission: tizem.antilag.admin
+permissions:
+  tizem.antilag.admin:
+    description: Use /antilag
+    default: op

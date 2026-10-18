@@ -1,0 +1,20 @@
+# Seconds between item clears
+interval: 300
+
+# Warn the server when this many seconds remain
+warnings: [60, 30, 10, 5, 4, 3, 2, 1]
+
+# Worlds to clear (empty = all worlds)
+worlds: []
+
+# Items that are never cleared
+exclude-materials:
+  - NETHER_STAR
+  - ELYTRA
+  - DRAGON_EGG
+  - TOTEM_OF_UNDYING
+
+prefix: "ANTILAG"
+prefix-color: "#FF1F4B"
+accent-color: "#FF1F4B"
+arrow: "▸"
